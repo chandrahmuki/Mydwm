@@ -10,8 +10,8 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "hack:size=15" };
-//#include "/home/david/.cache/wal/colors-wal-dwm.h"
+static const char *fonts[]          = { "Hack:size=15" };
+#include "colors-wal-dwm.h"
 /* tagging */
 static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 
